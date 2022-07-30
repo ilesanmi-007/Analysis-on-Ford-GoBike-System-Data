@@ -1,6 +1,6 @@
-Ford GoBike System Data
+# **Ford GoBike System Data**
 
-Dataset
+## Dataset
 The dataset, 201902-fordgobike-tripdata, is downloaded from Ford GoBike and licensed by Ford GoBike. 
 This dataset includes 183412 trips with 16 features such as locations, time, and user attributes. There are start and end stations.
 The dataset only has records for the second month -- February. I noticed that most trips happen on the same stations, 
@@ -10,8 +10,9 @@ so I subset the dataset by choosing top 10 trips start stations with the most tr
 Thus, the following analysis is performed by this subsetted dataset.
 
 
-Summary of Findings
-Univariate exploration:
+# *Summary of Findings*
+
+### Univariate exploration:
  
 During the day, there are more trips in the morning and evening than there are at afternoon and night. 
 The busiest hours are 8am and 5pm. 
@@ -25,7 +26,7 @@ There are more subscribers than customers possibly due to the pricing.
 
 
 
-Bivariate exploration: 
+### Bivariate exploration: 
 There is a slightly negative correlation between age and duration of trips. 
 And for the gender groups with most duration_sec, no gender explicitly won.
 Average age by gender type is similar even with obvious variation are the subscribes
@@ -33,12 +34,12 @@ Average age by gender type is similar even with obvious variation are the subscr
 Top 10 station and the most usertype. Having more subscribers generally made it imbalance. But based on the data it is the subscribers 
 that makes use of their services mostly
 
-Multivariate exploration: 
+### Multivariate exploration: 
 Used Facetgrid to look into the number of rides per the top10 trips start station for each day time. And the visuals still agrees with
 former visuals that the morning have more rides. Followed by the evenig and then afternoon and night
 
 
-Key Insights for Presentation
+## **Key Insights for Presentation**
 
 We have more male users than females and the other genders
 Most time of the rides are morning > Evening > Afternoon > night. And the most active hours are 8am and 5pm
@@ -48,7 +49,6 @@ The average age of users are close
 
 
 
-an helpful review: 
-https://review.udacity.com/#!/rubrics/3592/view
-
+Helpful reviews: 
+https://review.udacity.com/#!/reviews/3614365
 https://review.udacity.com/#!/reviews/3616766
